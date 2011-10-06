@@ -1,0 +1,6 @@
+content   autoprintpreview                 chrome/content/
+skin      autoprintpreview   classic/1.0   chrome/skin/
+locale    autoprintpreview   en-US         chrome/locale/en-US/
+
+
+overlay   chrome://browser/content/browser.xul   chrome://autoprintpreview/content/ff-overlay.xul

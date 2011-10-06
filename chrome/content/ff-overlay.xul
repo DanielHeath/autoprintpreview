@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="chrome://autoprintpreview/skin/overlay.css" type="text/css"?>
+<!DOCTYPE overlay SYSTEM "chrome://autoprintpreview/locale/overlay.dtd">
+<overlay id="autoprintpreview-overlay" xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul">
+  <script src="overlay.js"/>
+  <script src="ff-overlay.js"/>
+
+  <stringbundleset id="stringbundleset">
+    <stringbundle id="autoprintpreview-strings" src="chrome://autoprintpreview/locale/overlay.properties"/>
+  </stringbundleset>
+
+  <popup id="contentAreaContextMenu">
+    <menuitem id="context-autoprintpreview" label="&autoprintpreviewContext.label;"
+              accesskey="&autoprintpreviewContext.accesskey;"
+              insertafter="context-stop"
+              oncommand="autoprintpreview.onMenuItemCommand(event)"/>
+  </popup>
+
+
+
+
+</overlay>
+
+

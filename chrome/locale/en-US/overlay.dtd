@@ -1,0 +1,8 @@
+<!ENTITY autoprintpreview.label "Your localized menuitem">
+<!ENTITY autoprintpreviewContext.label "Your Menuitem">
+<!ENTITY autoprintpreviewContext.accesskey "Y">
+<!ENTITY autoprintpreviewToolbarButton.label "Your Toolbar Button">
+<!ENTITY autoprintpreviewToolbarButton.tooltip "This is your toolbar button!">
+<!ENTITY autoprintpreviewSidebar.label "Your Sidebar">
+<!ENTITY autoprintpreviewToolbar.name  "example">
+<!ENTITY autoprintpreviewToolbar.label "This is an example toolbar. You can hide it under View &gt; toolbars &gt; &autoprintpreviewToolbar.name;">
